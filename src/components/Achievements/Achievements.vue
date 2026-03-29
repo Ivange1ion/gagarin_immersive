@@ -34,6 +34,9 @@ watch(
 </script>
 
 <template>
+  <img src="../../assets/first-ach.webp" alt="" />
+  <img src="../../assets/second-ach.webp" alt="" />
+  <img src="../../assets/third-ach.webp" alt="" />
   <div class="embla">
     <div class="embla__viewport" ref="emblaRef">
       <div class="embla__container">
