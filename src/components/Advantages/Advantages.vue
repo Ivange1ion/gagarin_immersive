@@ -2,6 +2,9 @@
 
 <template>
     <div id="advantages">
+        <img src="../../assets/first-ach.webp" alt="" />
+        <img src="../../assets/second-ach.webp" alt="" />
+        <img src="../../assets/third-ach.webp" alt="" />
         <div class="part_head">
             Преимущества проекта
         </div>
