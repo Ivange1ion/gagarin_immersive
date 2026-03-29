@@ -35,6 +35,11 @@ watch(
 
 <template>
   <div class="embla">
+    <div id="bone">
+      <img src="../../assets/img/first-ach.webp" alt="" />
+      <img src="../../assets/img/second-ach.webp" alt="" />
+      <img src="../../assets/img/third-ach.webp" alt="" />
+    </div>
     <div class="embla__viewport" ref="emblaRef">
       <div class="embla__container">
         <div v-for="img in dataImg" :key="img.id" class="embla__slide">
@@ -79,7 +84,9 @@ watch(
   backface-visibility: hidden;
   touch-action: pan-y pinch-zoom;
 }
-
+#bone{
+  display:none;
+}
 .embla__slide {
   display: flex;
   justify-content: center;
