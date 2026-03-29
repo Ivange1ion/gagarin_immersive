@@ -4,9 +4,9 @@ import useEmblaCarousel from "embla-carousel-vue";
 
 const [emblaRef, emblaApi] = useEmblaCarousel();
 const dataImg = [
-  { id: 1, path: "assets/img/first-ach.webp" },
-  { id: 2, path: "assets/img/second-ach.webp" },
-  { id: 3, path: "assets/img/third-ach.webp" },
+  { id: 1, path: "assets/first-ach.webp" },
+  { id: 2, path: "assets/second-ach.webp" },
+  { id: 3, path: "assets/third-ach.webp" },
 ];
 
 const prevButtonDisabled = ref(true);
