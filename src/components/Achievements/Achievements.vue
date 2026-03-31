@@ -4,9 +4,9 @@ import useEmblaCarousel from "embla-carousel-vue";
 
 const [emblaRef, emblaApi] = useEmblaCarousel();
 const dataImg = [
-  { id: 1, path: "/src/assets/first-ach-Ddds9FJN.webp" },
-  { id: 2, path: "/src/assets/second-ach-B2Z3QAkO.webp" },
-  { id: 3, path: "/src/assets/third-ach-BnGinCkW.webp" },
+  { id: 1, path: "../../assets/first-ach-Ddds9FJN.webp" },
+  { id: 2, path: "../../assets/second-ach-B2Z3QAkO.webp" },
+  { id: 3, path: "../../assets/third-ach-BnGinCkW.webp" },
 ];
 // const dataImg = [
 //   { id: 1, path: "/src/assets/img/first-ach.webp" },
