@@ -3,16 +3,16 @@ import { ref, watch } from "vue";
 import useEmblaCarousel from "embla-carousel-vue";
 
 const [emblaRef, emblaApi] = useEmblaCarousel();
-// const dataImg = [
-//   { id: 1, path: "/src/assets/first-ach-Ddds9FJN.webp" },
-//   { id: 2, path: "/src/assets/second-ach-B2Z3QAkO.webp" },
-//   { id: 3, path: "/src/assets/third-ach-BnGinCkW.webp" },
-// ];
 const dataImg = [
-  { id: 1, path: "/src/assets/img/first-ach.webp" },
-  { id: 2, path: "/src/assets/img/second-ach.webp" },
-  { id: 3, path: "/src/assets/img/third-ach.webp" },
+  { id: 1, path: "/src/assets/first-ach-Ddds9FJN.webp" },
+  { id: 2, path: "/src/assets/second-ach-B2Z3QAkO.webp" },
+  { id: 3, path: "/src/assets/third-ach-BnGinCkW.webp" },
 ];
+// const dataImg = [
+//   { id: 1, path: "/src/assets/img/first-ach.webp" },
+//   { id: 2, path: "/src/assets/img/second-ach.webp" },
+//   { id: 3, path: "/src/assets/img/third-ach.webp" },
+// ];
 
 const prevButtonDisabled = ref(true);
 const nextButtonDisabled = ref(true);
