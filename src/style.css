@@ -27,6 +27,9 @@ hr {
   height: 3px;
   background-color: white;
 }
+.center-aling{
+  text-align: center;
+}
 .part_head {
   color: #ff8d28;
   font-size: 60px;

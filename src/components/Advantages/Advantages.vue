@@ -35,6 +35,7 @@
                 </div>
             </div>
             <div class="adv_li">
+                <!-- <img src="../../assets/img/pl 2.webp" alt=""> -->
                 <div class="adv_li_head">
                     Для рынка корпоративного и государственного управления
                 </div>
@@ -74,5 +75,9 @@
                 grid-template-columns: 1fr;
                 gap:20px;
             }
+    }
+    img{
+        width: 75px;
+        height: 75px;
     }
 </style>

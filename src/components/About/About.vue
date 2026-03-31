@@ -5,14 +5,14 @@
     <div class="part_head">Мы - команда крутых специалистов</div>
     <div class="about_first">
       <img src="../../assets/img/denis.webp" id="denis" alt="" />
-      <div class="text-item" id="text_first">
+      <div class="text-item center-aling" id="text_first">
         Меня зовут Денис, и я являюсь основателем этой компании. <br /><br />
         Мы с командой создали замечательный проект, который поможет осуществить
         мечту писателей-фантастов и учёных - сделать космос доступнее для
         каждого.
       </div>
     </div>
-    <div class="about_second text-item" id="text_second">
+    <div class="about_second text-item center-aling" id="text_second">
       <br />Проект получил несколько грантов и государственное спонсирование.
       <br /><br />
       Таким образом, Гагарин Иммерсив нацелен не только на техническое развитие
@@ -45,6 +45,11 @@
 @media (width<1152px) {
   #text_first {
     width: auto;
+  }
+}
+@media (width<1250px) {
+  .about_first{
+    justify-content: center;
   }
 }
 </style>

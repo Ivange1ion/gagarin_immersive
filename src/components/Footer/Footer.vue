@@ -3,10 +3,10 @@
 <template>
   <div id="footer">
     <div id="contacts">
-      8 800 555 35 35
+      +7(922)-712-22-36
       <br />
       <br />
-      example@mail.com
+      gagarin.immersive@mail.ru
     </div>
     <div id="media-links">
       <img src="../../assets/img/Telegram.webp" alt="телеграмм" />
@@ -21,7 +21,7 @@
   height: 60px;
   display: flex;
   /* width: 100%; */
-  justify-content: space-between;
+  justify-content: space-around;
   /* padding: 20px; */
   padding-left: 20px;
   padding-top: 20px;

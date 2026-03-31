@@ -127,7 +127,6 @@ watch(
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 30px;
   gap: 20px;
 }
 .embla__prev,

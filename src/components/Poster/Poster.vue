@@ -6,7 +6,7 @@
       <img src="../../assets/img/poster.webp" alt="" class="poster-img" />
     </picture>
 
-    <div class="text-content">
+    <div class="text-content center-aling">
       <p class="text-item">Переживите первый полёт в космос!</p>
       <p class="text-item">
         Наш проект даёт возможность не просто посмотреть о первом полёте в
