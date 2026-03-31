@@ -19,8 +19,8 @@ import Button from "../UI/Button.vue";
   align-items: center;
   justify-content: center;
 
-  margin-left: -30px;
-  margin-right: -35px;
+  /* margin-left: -30px;
+  margin-right: -35px; */
   margin-top: -30px;
   margin-bottom: 30px;
 

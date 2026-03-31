@@ -76,7 +76,7 @@
         position: relative;
         left: 15%;
         bottom: 0;
-        max-width: 50%;
+        max-width: 60%;
     }
     .card-info{
         font-size: 30px;
@@ -103,9 +103,10 @@
         justify-content: space-between;
         flex-direction: column;
     }
-    @media (width<750px) {
+    @media (width<803px) {
         .card{
             justify-content: center;
+            margin-bottom: 50px;
         }
         .card-text{
             width: 100%;
