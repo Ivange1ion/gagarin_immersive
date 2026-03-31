@@ -76,19 +76,23 @@
         position: relative;
         left: 15%;
         bottom: 0;
+        max-width: 50%;
     }
     .card-info{
         font-size: 30px;
     }
     .project-img{
-        max-width: 200px;
-        height: 300px;
+        max-width: 300px;
+        height: 400px;
     }
     .card{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         margin-top: 30px;
+    }
+    .card-text div{
+        margin-bottom: 10px;
     }
     .card-head{
         color: var(--text-span);
@@ -99,9 +103,14 @@
         justify-content: space-between;
         flex-direction: column;
     }
-    @media (width<550px) {
+    @media (width<750px) {
+        .card{
+            justify-content: center;
+        }
         .card-text{
             width: 100%;
+            text-align: center;
+            align-items: center;
         }
         .card-info{
             font-size: 20px;
@@ -109,6 +118,10 @@
         .detail{
             width: 100%;
             left: auto;
+        }
+        .project-img{
+            max-width: 200px;
+            height: 300px;
         }
     }
     @media (min-width:1000px) {

@@ -52,7 +52,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 30px;
     }
     .adv_ul{
         display: grid;

@@ -18,11 +18,12 @@
 <style scoped>
     #footer{
         background-color: var(--footer);
-        margin:20px;
         height: 60px;
         display: flex;
+        width: 100%;
         justify-content: space-between;
         padding: 20px;
+        margin-top: 40px;
     }
     #media-links{
         display: flex;

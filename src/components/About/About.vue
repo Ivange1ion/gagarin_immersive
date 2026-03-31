@@ -22,10 +22,6 @@
 </template>
 
 <style scoped>
-.about {
-  margin-bottom: 155px;
-}
-
 .about_first {
   display: flex;
   flex-wrap: wrap;

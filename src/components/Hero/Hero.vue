@@ -22,7 +22,7 @@ import Button from "../UI/Button.vue";
   margin-left: -30px;
   margin-right: -35px;
   margin-top: -30px;
-  margin-bottom: 155px;
+  margin-bottom: 30px;
 
   /* min-height: 200vh; */
   height: 150vh;
@@ -35,6 +35,7 @@ import Button from "../UI/Button.vue";
   left: 0;
   width: 100%;
   height: 100%;
+  opacity: 0.7;
   background-image: url("../../assets/img/hero-bg.webp");
   background-size: cover;
   background-position: center;

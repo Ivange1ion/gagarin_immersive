@@ -12,15 +12,14 @@
 body {
   position: relative;
   background-color: var(--bg);
-  padding: 18px;
   font-family: var(--sans);;
   color: #ffffff;
+  overflow-x: hidden;
 }
 .text-item {
   color: #fff;
   font-size: 40px;
   font-family: var(--sans);
-  font-weight: 700;
 }
 hr{
   height: 3px;
@@ -29,8 +28,10 @@ hr{
 .part_head{
   color: #ff8d28;
   font-size: 60px;
+  font-weight: bold;
   margin-bottom: 40px;
   text-align: center;
+  margin-top: 60px;
 }
 @media (width<760px) {
   .part_head{
@@ -44,6 +45,12 @@ hr{
 @media (max-width: 720px) {
   .text-item {
     font-size: 30px;
+  }
+}
+@media (width>800px) {
+  #projects,#about, #advantages, #poster{
+    margin-left: 6% !important;
+    margin-right: 6% !important;
   }
 }
 /* #advantages{

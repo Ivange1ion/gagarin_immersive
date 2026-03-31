@@ -7,7 +7,6 @@ const isVisiable = ref(false);
 
 const items = ref([
   { id: 1, name: "Главная" },
-  { id: 2, name: "Проект" },
   { id: 3, name: "Команда" },
   { id: 4, name: "Достижения" },
   { id: 5, name: "Проекты" },
@@ -72,6 +71,8 @@ const toggleModalMenu = () => {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  padding-left: 30px;
+  padding-right: 60px;
 }
 
 .item {
@@ -86,7 +87,7 @@ const toggleModalMenu = () => {
   background-color: var(--bg-active);
   color: var(--text-span);
   text-align: center;
-  padding: 15px 61px;
+  padding: 15px 75px;
   border-radius: 34px;
 }
 
