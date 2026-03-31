@@ -39,7 +39,7 @@ watch(
 </script>
 
 <template>
-  <div class="embla">
+  <div class="embla" id="achiv">
     <div id="bone">
       <img src="../../assets/img/first-ach.webp" alt="" />
       <img src="../../assets/img/second-ach.webp" alt="" />

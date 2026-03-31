@@ -23,7 +23,6 @@ import Button from "../UI/Button.vue";
   margin-right: -35px; */
   margin-top: -30px;
   margin-bottom: 30px;
-
   /* min-height: 200vh; */
   height: 150vh;
 }

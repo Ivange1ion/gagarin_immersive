@@ -107,6 +107,7 @@
         justify-content: space-between;
         flex-wrap: wrap;
         margin-top: 30px;
+        margin-bottom: 60px;
     }
     .card-text div{
         margin-bottom: 10px;
