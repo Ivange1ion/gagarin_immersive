@@ -63,7 +63,8 @@ const toggleModalMenu = () => {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 10px;
+  /* padding-right: 30px; */
+  padding-top: 30px;
 }
 
 .content {
