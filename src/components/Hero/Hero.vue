@@ -7,7 +7,7 @@ import Button from "../UI/Button.vue";
     <h1 class="title">
       <span class="span">Гагарин</span> Иммерсив - космос начинается здесь
     </h1>
-    <Button class="hero-btn">Узнать больше</Button>
+    <Button class="hero-btn"><a href="#about">Узнать больше</a></Button>
   </div>
 </template>
 
