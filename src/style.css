@@ -41,7 +41,7 @@ hr {
   height: 3px;
   background-color: white;
 }
-.center-aling{
+.center-aling {
   text-align: center;
 }
 .part_head {
@@ -51,6 +51,10 @@ hr {
   margin-bottom: 40px;
   text-align: center;
   margin-top: 60px;
+}
+
+a {
+  all: unset;
 }
 @media (width<760px) {
   .part_head {
