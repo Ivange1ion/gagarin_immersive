@@ -59,6 +59,56 @@ watch(
       <img src="../../assets/img/9-ach.webp" alt="" />
       <img src="../../assets/img/10-ach.webp" alt="" />
     </div>
+    <div class="marquee-container">
+      <div class="marquee-content">
+          
+          <div class="item"><img src="../../assets/img/first-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/second-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/third-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/4-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/5-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/6-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/7-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/8-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/9-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/10-ach.webp" alt="" /></div>
+          
+          <div class="item"><img src="../../assets/img/first-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/second-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/third-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/4-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/5-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/6-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/7-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/8-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/9-ach.webp" alt="" /></div>
+          <div class="item"><img src="../../assets/img/10-ach.webp" alt="" /></div>
+
+
+
+          <!-- <img class="item" src="../../assets/img/first-ach.webp" alt="" />
+            <img class="item" src="../../assets/img/second-ach.webp" alt="" />
+            <img class="item" src="../../assets/img/third-ach.webp" alt="" />
+            <img class="item" src="../../assets/img/4-ach.webp" alt="" />
+            <img class="item" src="../../assets/img/5-ach.webp" alt="" />
+            <img class="item" src="../../assets/img/6-ach.webp" alt="" />
+          <img class="item" src="../../assets/img/7-ach.webp" alt="" />
+          <img class="item" src="../../assets/img/8-ach.webp" alt="" />
+            <img class="item" src="../../assets/img/9-ach.webp" alt="" />
+            <img class="item" src="../../assets/img/10-ach.webp" alt="" />
+          
+          <img class="item" src="../../assets/img/first-ach.webp" alt="" />
+            <img class="item" src="../../assets/img/second-ach.webp" alt="" />
+            <img class="item" src="../../assets/img/third-ach.webp" alt="" />
+            <img class="item" src="../../assets/img/4-ach.webp" alt="" />
+            <img class="item" src="../../assets/img/5-ach.webp" alt="" />
+            <img class="item" src="../../assets/img/6-ach.webp" alt="" />
+          <img class="item" src="../../assets/img/7-ach.webp" alt="" />
+          <img class="item" src="../../assets/img/8-ach.webp" alt="" />
+            <img class="item" src="../../assets/img/9-ach.webp" alt="" />
+            <img class="item" src="../../assets/img/10-ach.webp" alt="" /> -->
+      </div>
+    </div>
     <div class="embla__viewport" ref="emblaRef">
       <div class="embla__container">
         <div v-for="img in dataImg" :key="img.id" class="embla__slide">
@@ -84,10 +134,46 @@ watch(
 </template>
 
 <style scoped>
+
+.marquee-container {
+  width: 800%;
+  overflow: hidden;
+  background: none;
+}
+
+.marquee-content {
+  display: flex;
+  width: max-content; /* Позволяет контенту занимать столько места, сколько нужно */
+  animation: scrollLeft 20s linear infinite; /* Увеличил время, так как элементов много */
+}
+
+.item {
+  /* Убираем width: 10%, чтобы ширина подстраивалась под картинку */
+  height: 300px; /* Задайте нужную вам высоту для всех картинок */
+  padding: 10px 20px; /* Отступы сверху/снизу и слева/справа */
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item img {
+  height: 100%; /* Картинка займет всю высоту .item */
+  width: auto; /* Ширина подстроится автоматически без растягивания! */
+  object-fit: contain; /* Страховка от искажений */
+}
+
+/* Анимация сдвига */
+@keyframes scrollLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* Сдвигаем на половину (оригинальный контент) */
+}
+
+
 .embla {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 88%;
   --slide-gap: 1rem;
   --slide-count: 3;
 }
