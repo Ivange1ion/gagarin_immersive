@@ -109,7 +109,7 @@ watch(
             <img class="item" src="../../assets/img/10-ach.webp" alt="" /> -->
       </div>
     </div>
-    <div class="embla__viewport" ref="emblaRef">
+    <!-- <div class="embla__viewport" ref="emblaRef">
       <div class="embla__container">
         <div v-for="img in dataImg" :key="img.id" class="embla__slide">
           <picture class="carusel-pic">
@@ -129,7 +129,7 @@ watch(
         @click="goToNext"
         :disabled="nextButtonDisabled"
       ></button>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -143,14 +143,13 @@ watch(
 
 .marquee-content {
   display: flex;
-  width: max-content; /* Позволяет контенту занимать столько места, сколько нужно */
-  animation: scrollLeft 20s linear infinite; /* Увеличил время, так как элементов много */
+  width: max-content;
+  animation: scrollLeft 70s linear infinite;
 }
 
 .item {
-  /* Убираем width: 10%, чтобы ширина подстраивалась под картинку */
-  height: 300px; /* Задайте нужную вам высоту для всех картинок */
-  padding: 10px 20px; /* Отступы сверху/снизу и слева/справа */
+  height: 300px;
+  padding: 10px 20px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -158,15 +157,18 @@ watch(
 }
 
 .item img {
-  height: 100%; /* Картинка займет всю высоту .item */
-  width: auto; /* Ширина подстроится автоматически без растягивания! */
-  object-fit: contain; /* Страховка от искажений */
+  height: 100%;
+  width: auto;
+  object-fit: contain;
 }
 
 /* Анимация сдвига */
 @keyframes scrollLeft {
   0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); } /* Сдвигаем на половину (оригинальный контент) */
+  100% { transform: translateX(-50%); }
+}
+.marquee-container:hover .marquee-content {
+  animation-play-state: paused;
 }
 
 
