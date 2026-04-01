@@ -121,6 +121,7 @@ import Button from "../UI/Button.vue";
 }
 .card-head {
   color: var(--text-span);
+  text-align: center;
 }
 .card-text {
   width: 60%;
