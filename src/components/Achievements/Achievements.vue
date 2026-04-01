@@ -7,14 +7,13 @@ const dataImg = [
   { id: 1, path: "assets/first-ach-Ddds9FJN.webp" },
   { id: 2, path: "assets/second-ach-B2Z3QAkO.webp" },
   { id: 3, path: "assets/third-ach-BnGinCkW.webp" },
-
-  { id: 4, path: "assets/4-ach.webp" },
-  { id: 5, path: "assets/5-ach.webp" },
-  { id: 6, path: "assets/6-ach.webp" },
-  { id: 7, path: "assets/7-ach.webp" },
-  { id: 8, path: "assets/8-ach.webp" },
-  { id: 9, path: "assets/9-ach.webp" },
-  { id: 10, path: "assets/10-ach.webp" },
+  { id: 4, path: "assets/4-ach-CxSbtKGD.webp" },
+  { id: 5, path: "assets/5-ach-BZb65l6p.webp" },
+  { id: 6, path: "assets/6-ach-C7GhKOp9.webp" },
+  { id: 7, path: "assets/7-ach-C6iAvbcT.webp" },
+  { id: 8, path: "assets/8-ach-DR7ey84u.webp" },
+  { id: 9, path: "assets/9-ach-TuBZ-PV0.webp" },
+  { id: 10, path: "assets/10-ach-DkJf6XJX.webp" },
 ];
 // const dataImg = [
 //   { id: 1, path: "/src/assets/img/first-ach.webp" },
