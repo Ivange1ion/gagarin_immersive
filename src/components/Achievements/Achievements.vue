@@ -7,6 +7,14 @@ const dataImg = [
   { id: 1, path: "assets/first-ach-Ddds9FJN.webp" },
   { id: 2, path: "assets/second-ach-B2Z3QAkO.webp" },
   { id: 3, path: "assets/third-ach-BnGinCkW.webp" },
+
+  { id: 4, path: "assets/4-ach.webp" },
+  { id: 5, path: "assets/5-ach.webp" },
+  { id: 6, path: "assets/6-ach.webp" },
+  { id: 7, path: "assets/7-ach.webp" },
+  { id: 8, path: "assets/8-ach.webp" },
+  { id: 9, path: "assets/9-ach.webp" },
+  { id: 10, path: "assets/10-ach.webp" },
 ];
 // const dataImg = [
 //   { id: 1, path: "/src/assets/img/first-ach.webp" },
@@ -44,6 +52,13 @@ watch(
       <img src="../../assets/img/first-ach.webp" alt="" />
       <img src="../../assets/img/second-ach.webp" alt="" />
       <img src="../../assets/img/third-ach.webp" alt="" />
+      <img src="../../assets/img/4-ach.webp" alt="" />
+      <img src="../../assets/img/5-ach.webp" alt="" />
+      <img src="../../assets/img/6-ach.webp" alt="" />
+      <img src="../../assets/img/7-ach.webp" alt="" />
+      <img src="../../assets/img/8-ach.webp" alt="" />
+      <img src="../../assets/img/9-ach.webp" alt="" />
+      <img src="../../assets/img/10-ach.webp" alt="" />
     </div>
     <div class="embla__viewport" ref="emblaRef">
       <div class="embla__container">
