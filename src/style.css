@@ -52,6 +52,10 @@ hr {
   text-align: center;
   margin-top: 60px;
 }
+
+a {
+  all: unset;
+}
 @media (width<760px) {
   .part_head {
     color: #ff8d28;

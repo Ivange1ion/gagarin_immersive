@@ -4,11 +4,10 @@ import { ref } from "vue";
 const activeIndex = ref(0);
 
 const items = ref([
-  { id: 1, name: "Главная" },
-  { id: 2, name: "Проект" },
-  { id: 3, name: "Команда" },
-  { id: 4, name: "Достижения" },
-  { id: 5, name: "Проекты" },
+  { id: 1, name: "Главная", link: "hero" },
+  { id: 3, name: "Команда", link: "about" },
+  { id: 4, name: "Достижения", link: "achiv" },
+  { id: 5, name: "Проекты", link: "projects" },
 ]);
 </script>
 
@@ -22,7 +21,7 @@ const items = ref([
         :class="{ active: activeIndex === index }"
         @click="activeIndex = index"
       >
-        {{ item.name }}
+        <a :href="`#${item.link}`">{{ item.name }}</a>
       </p>
     </div>
   </div>
