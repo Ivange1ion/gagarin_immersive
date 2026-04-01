@@ -21,7 +21,7 @@ const items = ref([
         :class="{ active: activeIndex === index }"
         @click="activeIndex = index"
       >
-        {{ item.name }}
+        <a :href="`#${item.link}`">{{ item.name }}</a>
       </p>
     </div>
   </div>
