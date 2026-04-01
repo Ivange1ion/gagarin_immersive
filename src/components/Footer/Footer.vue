@@ -9,7 +9,7 @@
       gagarin.immersive@mail.ru
     </div>
     <div id="media-links">
-      <a  href="https://t.me/username/paranoia401"><img src="../../assets/img/Telegram.webp" alt="телеграмм"/></a>
+      <a  href="https://t.me/paranoia401"><img src="../../assets/img/Telegram.webp" alt="телеграмм"/></a>
       <a href="https://vk.com/paranoia401"><img src="../../assets/img/Vkontakte (VK).webp" alt="вконтакте"/></a>
     </div>
   </div>
