@@ -5,7 +5,7 @@
             <div class="part_head" style="margin-top: 0;">
             О проекте
         </div>
-    <div style="display: flex; margin-bottom:40px">
+    <div style="display: flex; margin-bottom:40px; flex-wrap:wrap; justify-content:center;">
       <picture class="poster-pic">
         <img src="../../assets/img/poster.webp" alt="" class="poster-img" />
       </picture>
