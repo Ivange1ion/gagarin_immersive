@@ -5,7 +5,7 @@
             <div class="part_head" style="margin-top: 0;">
             О проекте
         </div>
-    <div style="display: flex; margin-bottom:40px; flex-wrap:wrap; justify-content:center;">
+    <div class="first-text">
       <picture class="poster-pic">
         <img src="../../assets/img/poster.webp" alt="" class="poster-img" />
       </picture>
@@ -55,7 +55,17 @@
   align-items: center;
   justify-content: center;
 }
-
+.first-text{
+  display: flex;
+  margin-bottom:40px;
+  flex-wrap: nowrap;
+  justify-content:center;
+}
+@media (width<1060px) {
+  .first-text{
+    flex-wrap: wrap;
+  }
+}
 @media (max-width: 1200px) {
   .text-item {
     font-size: 40px;
